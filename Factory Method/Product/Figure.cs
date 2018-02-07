@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlTypes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Factory_Method
 {
-    class Program
+    public abstract class Figure
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        private int[,] figore = new int[4, 4];
+
+        
+
     }
 }
