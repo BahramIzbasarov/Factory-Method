@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Factory_Method
 {
-    public abstract class FigureCreator
+    class JShape : Figure
     {
-        public abstract Figure NewFigure();
-        
+        public JShape()
+        {
+            
+        }
     }
 }

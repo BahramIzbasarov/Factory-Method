@@ -42,16 +42,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concrete creator\JShapeCreator.cs" />
+    <Compile Include="Concrete creator\LineShapeCreator.cs" />
+    <Compile Include="Concrete creator\LShapeCreator.cs" />
+    <Compile Include="Concrete creator\OShapeCreator.cs" />
+    <Compile Include="Concrete creator\SShapeCreator.cs" />
+    <Compile Include="Concrete creator\TShapeCreator.cs" />
+    <Compile Include="Concrete creator\ZShapeCreator.cs" />
+    <Compile Include="Concrete product\JShape.cs" />
+    <Compile Include="Concrete product\LineShape.cs" />
+    <Compile Include="Concrete product\LShape.cs" />
+    <Compile Include="Concrete product\OShape.cs" />
+    <Compile Include="Concrete product\SShape.cs" />
+    <Compile Include="Concrete product\Tshape.cs" />
+    <Compile Include="Concrete product\ZShape.cs" />
     <Compile Include="Creator\FigureCreator.cs" />
     <Compile Include="Product\Figure.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Enumerable\RGB.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Concrete creator\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

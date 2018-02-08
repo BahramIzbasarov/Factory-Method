@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Factory_Method
 {
-    public abstract class FigureCreator
+    class LShapeCreator : FigureCreator
     {
-        public abstract Figure NewFigure();
-        
+        public override Figure NewFigure()
+        {
+            return new LShape();
+        }
     }
 }

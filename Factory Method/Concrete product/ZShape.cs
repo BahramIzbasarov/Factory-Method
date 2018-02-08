@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Factory_Method
 {
-    public abstract class FigureCreator
+    class ZShape : Figure
     {
-        public abstract Figure NewFigure();
         
+
     }
 }
