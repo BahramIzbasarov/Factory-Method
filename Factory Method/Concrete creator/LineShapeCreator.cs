@@ -8,5 +8,10 @@ namespace Factory_Method
 {
     class LineShapeCreator : FigureCreator
     {
+        public override Figure NewFigure()
+        {
+            LineShape shape = new LineShape();
+            return shape;
+        }
     }
 }

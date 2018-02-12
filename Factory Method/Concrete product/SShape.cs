@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Factory_Method
 {
-    class SShape : Figure
+    public class SShape : Figure
     {
+        public SShape()
+        {
+            FigureSize[0, 2] = 1;
+            FigureSize[0, 1] = 1;
+            FigureSize[1, 1] = 1;
+            FigureSize[1, 0] = 1;
+        }
     }
 }

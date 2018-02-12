@@ -8,5 +8,10 @@ namespace Factory_Method
 {
     class TShapeCreator : FigureCreator
     {
+        public override Figure NewFigure()
+        {
+            TShape shape = new TShape();
+            return shape;
+        }
     }
 }

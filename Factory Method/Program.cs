@@ -11,7 +11,15 @@ namespace Factory_Method
     {
         static void Main(string[] args)
         {
-            
+            SShape a = new SShape();
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                {
+                    Console.Write(a.FigureSize[i, j]);
+                }
+                Console.WriteLine();
+            }
         }
     }
 }

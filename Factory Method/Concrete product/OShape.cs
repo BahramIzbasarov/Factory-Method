@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Factory_Method
 {
-    class OShape : Figure
+    public class OShape : Figure
     {
-
+        public OShape()
+        {
+            FigureSize[0, 1] = 1;
+            FigureSize[0, 0] = 1;
+            FigureSize[1, 1] = 1;
+            FigureSize[1, 0] = 1;
+        }
     }
 }

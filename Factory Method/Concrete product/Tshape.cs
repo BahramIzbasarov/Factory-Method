@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Factory_Method
 {
-    class Tshape : Figure
+    public class TShape : Figure
     {
+        public TShape()
+        {
+            FigureSize[0, 2] = 1;
+            FigureSize[0, 1] = 1;
+            FigureSize[0, 0] = 1;
+            FigureSize[1, 1] = 1;
+        }
     }
 }

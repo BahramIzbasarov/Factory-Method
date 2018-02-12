@@ -8,5 +8,10 @@ namespace Factory_Method
 {
     class OShapeCreator : FigureCreator
     {
+        public override Figure NewFigure()
+        {
+            OShape shape = new OShape();
+            return shape;
+        }
     }
 }

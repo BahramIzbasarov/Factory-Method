@@ -8,5 +8,10 @@ namespace Factory_Method
 {
     class SShapeCreator : FigureCreator
     {
+        public override Figure NewFigure()
+        {
+            SShape shape = new SShape();
+            return shape;
+        }
     }
 }

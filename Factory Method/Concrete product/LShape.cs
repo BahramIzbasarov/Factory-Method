@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Factory_Method
 {
-    class LShape : Figure
+    public class LShape : Figure
     {
-
+        public LShape()
+        {
+            FigureSize[0, 1] = 1;
+            FigureSize[1, 1] = 1;
+            FigureSize[2, 1] = 1;
+            FigureSize[2, 2] = 1;
+        }
     }
 }

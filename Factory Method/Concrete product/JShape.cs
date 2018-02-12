@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Factory_Method
 {
-    class JShape : Figure
+    public class JShape : Figure
     {
         public JShape()
         {
-            
+            FigureSize[0, 1] = 1;
+            FigureSize[1, 1] = 1;
+            FigureSize[2, 1] = 1;
+            FigureSize[2, 0] = 1;
         }
     }
 }

@@ -10,7 +10,8 @@ namespace Factory_Method
     {
         public override Figure NewFigure()
         {
-            return new LShape();
+            LShape shape = new LShape();
+            return shape;
         }
     }
 }

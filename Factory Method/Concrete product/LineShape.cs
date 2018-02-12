@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Factory_Method
 {
-    class LineShape : Figure
+    public class LineShape : Figure
     {
-        
+        public LineShape()
+        {
+            FigureSize[0, 1] = 1;
+            FigureSize[1, 1] = 1;
+            FigureSize[2, 1] = 1;
+            FigureSize[3, 1] = 1;
+        }
     }
 }

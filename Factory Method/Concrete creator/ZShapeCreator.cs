@@ -8,5 +8,10 @@ namespace Factory_Method
 {
     class ZShapeCreator : FigureCreator
     {
+        public override Figure NewFigure()
+        {
+            ZShape shape = new ZShape();
+            return shape;
+        }
     }
 }
